@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <!--Kodowanie znaków, możemy używać polskich znaków-->
+        <meta charset="UTF-8"> 
+        <!--sposób wyświetlania na urządzeniach mobilnych-->
+        <meta name="viewport" content="wight=device-width, initial-scale=1.0">
+        <!--Tytuł naszej strony-->
+        <title>Dla Wojtka</title>
+        <!--dodajemy czcionkę z google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!--To jest obrazek który widać na zakładce, ikonka strony-->
+        <link rel="icon" href="rubic_favicon.ico">
+        <!--Alternatywny zapis, moze się nie wyświetlać na wszystkich przeglądarkach-->
+        <link rel="shortcut icon" href="rubic_favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <!--Tu wklejamy obrazek na samej górze strony-->
+                <img src="rubiks_cubes.jpg" alt="rubiks - header"/>
+            </header>
+            <nav>
+                <!--Budujemy menu-->
+                <a class="menu active" href="#">O mnie</a><a class="menu" href="#">Techniki</a><a class="menu" href="#">Rekordy</a><a class="menu" href="#">Kontakt</a>
+            </nav>
+            <section>
+                <article>
+                    <!--Mały nagłówek naszej stronki głownej-->
+                    <h1>Ta strona jest dla mojego syna Wojtka!</h1>
+                    <!--Treść naszej strony głównej-->
+                    <p><img class="left" src="Rubik_320.jpg" alt="twarz"/> Ta strona jest moim debiutem. Będzie w całości poświęcona kostce Rubika,
+                       czyli największej pasji mojego syna Wojtka. Mam nadzieję, że mu się podoba :-)</p>
+                    <p>Mam wrażenie, że nauka tworzenia stron internetowych jest jak układanie kostki. 
+                        Ten facet z lewej to Ernő Rubik. Wymyślił tą łamigłówkę.</p>
+                    <p>Zbudował ją Terutoshi Ishige. A pomysłodawcy, panu Rubikowi, 
+                        pierwsze ułożenie zajęło kilka miesięcy.</p>
+
+                </article>
+                <!--Tutaj wkleimy sobie iframe (czyli nasz filmik z youtuba)-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5tyCcEVsyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <footer>
+                Zrobiłem to w półtorej godzinki. Mam nadzieję, żę to niezły czas na pierwszy raz :-)
+            </footer>
+        </div>
+
+    </body>
+</html>
