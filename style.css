@@ -11,12 +11,14 @@ header img {
     display: block;
 }
 
-body {background-color:bisque;}
+body {
+    background-color:bisque;
+}
 
 #wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: white;
+    background-color: gold;
 }
 
 nav {
@@ -73,5 +75,7 @@ footer {
     line-height: 40px;
     text-align: center;
     margin-top: 10px;
-
+}
+footer link {
+    color: white;
 }
