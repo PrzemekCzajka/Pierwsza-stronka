@@ -1,0 +1,3 @@
+# Pierwsza-stronka
+Lekcja nr 1
+To jest efekt pierwszego dnia nauki...
